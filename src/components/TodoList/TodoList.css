@@ -1,0 +1,8 @@
+.done{
+  color: gray;
+  text-decoration: line-through;
+}
+
+span{
+  font-size: 1.5rem;
+}
