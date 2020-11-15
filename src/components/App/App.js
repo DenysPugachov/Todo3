@@ -5,7 +5,7 @@ import TodoList from '../TodoList/TodoList';
 
 export default class App extends Component {
 
-  taskId = 0;
+  taskId = 100;
 
   state = {
     todoArr: [
