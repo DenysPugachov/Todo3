@@ -5,7 +5,7 @@ import TodoList from '../TodoList/TodoList';
 
 export default class App extends Component {
 
-  taskId = 100;
+  taskId = 1000;
 
   state = {
     todoArr: [
@@ -23,7 +23,7 @@ export default class App extends Component {
       label,
       done: false,
       important: false,
-      id: this.taskId++
+      id: this.taskId++,
     };
   }
 
